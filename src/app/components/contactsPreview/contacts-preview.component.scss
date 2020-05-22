@@ -1,0 +1,31 @@
+.user {
+  border: 2px #CCCCCC solid;
+  width: 270px;
+  height: 130px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255, 0.8);
+  font-weight: 100;
+  font-size: .8em;
+  border-radius: 5px;
+  padding: 4px;
+  transition: 0.3s ease-out all;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+img {
+  height: 80px;
+}
+
+.user button {
+  border-radius: 5px;
+  border: 1px #CCCCCC solid;
+  padding: 5px;
+  cursor: pointer;
+}

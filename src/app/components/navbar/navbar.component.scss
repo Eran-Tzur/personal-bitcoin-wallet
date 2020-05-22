@@ -1,0 +1,27 @@
+.nav-bar {
+  justify-content: center;
+  height: 5vh;
+  margin: 0 auto;
+  text-transform: uppercase;;
+  font-weight: 100;
+}
+
+a{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.body {
+  background: #CCCCCC;
+  border-bottom: 3px black solid;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.nav-bar a {
+  transition: 0.3s ease-out transform;
+}
+.nav-bar a:hover {
+  color: #006699;
+  transform: scale(1.1);
+}

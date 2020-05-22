@@ -1,0 +1,20 @@
+<div class="contacts-list">
+  <div class="flex space-around">
+    <input
+      type="text"
+      placeholder="
+      🔍Filter ME!"
+      (input)="filterlist()"
+      [(ngModel)]="filterBy.term"
+    />
+    <a routerLink="/contact/edit/">
+      <button>Add Contact</button>
+    </a>
+  </div>
+  <div class="contacts-container">
+    <app-contacts-preview
+      *ngFor="let contact of contacts"
+      [contact]="contact"
+    ></app-contacts-preview>
+  </div>
+</div>

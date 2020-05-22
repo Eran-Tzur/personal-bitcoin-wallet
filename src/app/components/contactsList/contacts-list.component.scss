@@ -1,0 +1,24 @@
+.contacts-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1700px;
+  justify-content: center;
+}
+
+.contacts-list {
+  min-height: 95vh;
+  overflow: auto;
+
+  h1 {
+    color: #CCCCCC;
+    text-align: center;
+  }
+
+  input,
+  button {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+  }
+}
